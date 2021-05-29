@@ -7,7 +7,7 @@ The project aims to serve as a guide for adding your own custom colors to the pa
 <img src="https://raw.githubusercontent.com/dimitrimitropulos/VBECustomColors/master/ExampleColors.png">
 
 There are two main things you need to know about getting your editor look like this:
-1. The actual hex values for the color palette are stored in the editor dll or exe (VB6.exe, VBE7.dll, etc.).  To update the colors you have to open the editor dll or exe file in a hex editor (I use HxD) and manually make the changes there.
+1. The actual hex values for the color palette are stored in the editor dll (..\VB98\VBA6.DLL, VBE7.dll, etc.).  To update the colors you have to open the editor dll or exe file in a hex editor (I use HxD) and manually make the changes there.
 2. The registry holds what you can think of as a preset.  This is located somewhere around "C:\Program Files (x86)\Common Files\microsoft shared\VBA\" (in the folder "VBA7.1\VBE7.DLL" for Office 2016, for example).  You can either make changes to what colors are assigned to what syntax groups (like "Selection Text", "Execution Text", etc.) in the registry all at once, or you can do it manually in the editor ( Tools | Options | Editor Format)
 
 # Quick Start
